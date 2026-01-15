@@ -1,10 +1,6 @@
 # Exchange-Online-Mailbox-Size-Report
 Powershell script to create a csv file of all mailboxes and their size in GB. 
 
-It’s great to hear you got the module installed and the script running! Documentation is a key part of any admin's toolkit—it ensures that if you (or a teammate) need to run this again in six months, you won't have to troubleshoot from scratch.
-
-Here is a clean, professional User Guide in Markdown format that you can save as a `README.md` file alongside your script.
-
 ---
 
 # User Guide: Exchange Online Mailbox Size Report
@@ -88,7 +84,3 @@ By default, the script saves the report to your **Desktop**:
 * **"Connect-ExchangeOnline is not recognized"**: Repeat the "First-Time Setup" steps above.
 * **Authentication Failed**: Ensure you are using an account with sufficient permissions and that your internet connection is stable.
 * **Empty CSV**: If the CSV is empty, ensure you have active `UserMailboxes` in your tenant; the script is filtered to skip shared mailboxes or resource mailboxes.
-
----
-
-**Would you like me to show you how to modify the script so it automatically emails this CSV to you once it's finished?**
